@@ -1,0 +1,156 @@
+##CIF_1.1
+
+data_sm_global
+#Used dictionaries
+loop_
+_audit_conform_dict_name
+_audit_conform_dict_version
+_audit_conform_dict_location
+cif_core.dic 	2.4.2 	.
+cif_pd.dic 		1.0.1 	.
+cif_sm.dic 		0.1 	'redaktion.landolt-boernstein(at)springer.com'
+
+#About this content and reference
+_sm_credits_copyright
+;PAULING FILE Multinaries Edition - 2012. SpringerMaterials Release 2014.
+http://www.paulingfile.com
+Unique LPF ID Number SD0304974
+Project Coordinator: Shuichi Iwata
+Section-Editors: Karin Cenzual (Crystal Structures), Hiroaki Okamoto (Phase 
+Diagrams), Fritz Hulliger (Physical Properties)
+(c) Springer & Material Phases Data System (MPDS), Switzerland & National 
+Institute for Materials Science (NIMS), Japan 2014.
+(Data generated pre-2002: (c) Springer & MPDS & NIMS; 
+post-2001: (c) Springer & MPDS)
+All Rights Reserved. Version 2014.06.
+;
+
+_audit_creation_method
+;This data have been compiled from the crystallographic datasheet for 
+"BaTiO3 Crystal Structure" 
+taken from SpringerMaterials (sm_isp_sd_0304974).
+;
+
+_publ_section_references
+;Keler E.K., Karpenko N.B.: <i>Reaction of BaCO<sub>3</sub> with TiO<sub>2</sub> and ZrO<sub>2</sub> during heating</i>. (Russian) Journal of Inorganic Chemistry (translated from Zhurnal Neorganicheskoi Khimii) <b>5</b> (1960) 322-325.
+;
+
+#Phase classification
+_sm_phase_labels				'BaTiO3 ht'
+_chemical_name_mineral			''
+_sm_chemical_compound_class		'oxide'
+_sm_phase_prototype				'CaTiO3 '
+_sm_pearson_symbol				'cP5'
+_symmetry_Int_Tables_number		221
+_sm_sample_details
+;powder (determination of cell parameters)
+;
+_sm_measurement_details
+;film (determination of cell parameters), 
+X-rays (determination of cell parameters)
+;
+_sm_interpretation_details
+;cell parameters determined and type with fixed coordinates assigned
+;
+
+data_sm_isp_SD0304974-standardized_unitcell
+#Cell Parameters
+_cell_length_a					4.18
+_cell_length_b					4.18
+_cell_length_c					4.18
+_cell_angle_alpha				90
+_cell_angle_beta				90
+_cell_angle_gamma				90
+_sm_length_ratio_ab				1.000
+_sm_length_ratio_bc				1.000
+_sm_length_ratio_ca				1.000
+_cell_volume 					73
+_symmetry_space_group_name_H-M	'Pm-3m'
+_symmetry_Int_Tables_number		221
+_cell_formula_units_Z			1
+_sm_cell_transformation
+;origin shift 1/2 1/2 1/2
+;
+
+#Atom Coordinates
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_Wyckoff_symbol
+_sm_site_symmetry
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_sm_coordination_number
+_sm_atomic_environment_type
+O 'O' .3d .4/mm.m 0.5 0 0 1 2 'collinear, Ti<sub>2</sub>'
+Ba 'Ba' .1b .m-3m 0.5 0.5 0.5 1 12 'cuboctahedron, O<sub>12</sub>'
+Ti 'Ti' .1a .m-3m 0 0 0 1 6 'octahedron, O<sub>6</sub>'
+
+_sm_atom_site_transformation
+;origin shift 1/2 1/2 1/2
+;
+
+data_sm_isp_SD0304974-published_cell
+#Cell Parameters
+_cell_length_a					4.18
+_cell_length_b					4.18
+_cell_length_c					4.18
+_cell_angle_alpha				90
+_cell_angle_beta				90
+_cell_angle_gamma				90
+_sm_length_ratio_ab				1.000
+_sm_length_ratio_bc				1.000
+_sm_length_ratio_ca				1.000
+_cell_volume 					73.03
+_symmetry_space_group_name_H-M	'Pm-3m'
+_symmetry_Int_Tables_number		221
+_cell_formula_units_Z			1
+
+#Atom Coordinates
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_Wyckoff_symbol
+_sm_site_symmetry
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_sm_coordination_number
+_sm_atomic_environment_type
+Ba 'Ba' .1a .m-3m 0 0 0 1 ? '?'
+Ti 'Ti' .1b .m-3m 0.5 0.5 0.5 1 ? '?'
+O 'O' .3c .4/mm.m 0 0.5 0.5 1 ? '?'
+
+data_sm_isp_SD0304974-niggli_reduced_cell
+#Cell Parameters
+_cell_length_a					4.18
+_cell_length_b					4.18
+_cell_length_c					4.18
+_cell_angle_alpha				90
+_cell_angle_beta				90
+_cell_angle_gamma				90
+_sm_length_ratio_ab				1.000
+_sm_length_ratio_bc				1.000
+_sm_length_ratio_ca				1.000
+_cell_volume 					73.03
+_symmetry_space_group_name_H-M	''
+_symmetry_Int_Tables_number		?
+_cell_formula_units_Z			1
+
+#Atom Coordinates
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_Wyckoff_symbol
+_sm_site_symmetry
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_sm_coordination_number
+_sm_atomic_environment_type
+? ? ? ? ? ? ? ? ? ?
+
